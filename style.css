@@ -101,6 +101,12 @@ body{
     font-size: 0.9rem;
     color: hsl(292, 16%, 49%);
     line-height: 20px;
+    font-weight: 500;
+}
+
+.faq-card-content p:hover{
+    color: #AD28EB;
+    cursor: pointer;
 }
 
 
