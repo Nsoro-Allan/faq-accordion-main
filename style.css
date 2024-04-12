@@ -109,5 +109,60 @@ body{
     cursor: pointer;
 }
 
+/* Responsiveness Starts Here */
+
+@media screen and (min-width: 240px) and (max-width: 500px) {
+    
+    .head-container{
+        width: 100%;
+        height: 35dvh;
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+    .faq-container{
+        width: 90%;
+        background: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: column;
+        padding: 20px 35px;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        margin-top: 40%;
+        transform: translate(-50%);
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    .head-container{
+        width: 100%;
+        height: 35dvh;
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+    .faq-container{
+        width: 90%;
+        background: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: column;
+        padding: 20px 35px;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        margin-top: 30%;
+        transform: translate(-50%);
+    }
+
+}
+
 
 
